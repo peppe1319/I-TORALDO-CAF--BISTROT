@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Toraldo Café • Bistrot</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <div class="overlay">
+
+        <h1>I TORALDO</h1>
+
+        <p>Café • Bistrot</p>
+
+        <a href="#menu" class="button">
+            Scopri il Menù
+        </a>
+
+    </div>
+
+</header>
+
+<section id="menu">
+
+    <h2>Il nostro Menù</h2>
+
+    <div class="menu-grid">
+
+        <div class="item">☕ Colazione</div>
+
+        <div class="item">🥐 Cornetteria</div>
+
+        <div class="item">🥪 Bistrot</div>
+
+        <div class="item">🍹 Aperitivo</div>
+
+        <div class="item">🍽 Cena</div>
+
+        <div class="item">🍸 Cocktail</div>
+
+        <div class="item">🍷 Carta Vini</div>
+
+        <div class="item">🍰 Dessert</div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
