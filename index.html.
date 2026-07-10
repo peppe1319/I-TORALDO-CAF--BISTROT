@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I Toraldo Café • Bistrot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I Toraldo Café • Bistrot</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header class="hero">
 
-    <div class="overlay">
+<div class="hero-content">
 
-        <h1>I TORALDO</h1>
+<h1>I TORALDO</h1>
 
-        <p>Café • Bistrot</p>
+<p>Café • Bistrot</p>
 
-        <a href="#menu" class="button">
-            Scopri il Menù
-        </a>
+<span>Dal primo caffè del mattino all'ultimo cocktail della sera</span>
 
-    </div>
+<a href="#menu" class="btn">
+Scopri il Menù
+</a>
+
+</div>
 
 </header>
 
 <section id="menu">
 
-    <h2>Il nostro Menù</h2>
+<h2>Il Nostro Menù</h2>
 
-    <div class="menu-grid">
+<div class="grid">
 
-        <div class="item">☕ Colazione</div>
+<div class="box">☕ Colazione</div>
 
-        <div class="item">🥐 Cornetteria</div>
+<div class="box">🥐 Cornetteria</div>
 
-        <div class="item">🥪 Bistrot</div>
+<div class="box">🥪 Bistrot</div>
 
-        <div class="item">🍹 Aperitivo</div>
+<div class="box">🍹 Aperitivo</div>
 
-        <div class="item">🍽 Cena</div>
+<div class="box">🍽️ Cena</div>
 
-        <div class="item">🍸 Cocktail</div>
+<div class="box">🍸 Cocktail</div>
 
-        <div class="item">🍷 Carta Vini</div>
+<div class="box">🍷 Carta Vini</div>
 
-        <div class="item">🍰 Dessert</div>
+<div class="box">🍰 Dessert</div>
 
-    </div>
+</div>
 
 </section>
+
+<footer>
+
+<p>© I Toraldo Café • Bistrot</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
